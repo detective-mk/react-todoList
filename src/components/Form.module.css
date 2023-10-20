@@ -1,0 +1,17 @@
+.form {
+  display: flex;
+  gap: 20px;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+.input {
+  padding: 6px 10px;
+  min-width: 300px;
+  border: 1px solid #ddd;
+  outline: none;
+}
+
+.btn {
+  padding: 10px;
+}

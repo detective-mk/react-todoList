@@ -1,0 +1,35 @@
+.todo-item {
+  display: flex;
+  align-items: center;
+  padding-bottom: 8px;
+  gap: 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.todo-item + .todo-item {
+  margin-top: 20px;
+}
+
+.title {
+  flex-grow: 1;
+  text-align: left;
+}
+
+.btn-wrap {
+  display: flex;
+  gap: 10px;
+}
+
+.btn {
+  padding: 6px 10px;
+}
+
+.btnComplete {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+}
+
+.todoDone {
+  text-decoration: line-through;
+}
