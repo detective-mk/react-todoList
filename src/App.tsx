@@ -1,6 +1,6 @@
 import "./App.css";
-import Form from "./components/Form";
 import { useState } from "react";
+import Form from "./components/Form";
 import TodoItem from "./components/TodoItem";
 
 export type Todo = {
@@ -22,6 +22,7 @@ function App() {
       done: false,
     },
   ];
+
   const [todos, setTodos] = useState<Todo[]>(todoSample);
 
   const deleteTodo = (todo: Todo) => {

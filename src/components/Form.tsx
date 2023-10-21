@@ -18,8 +18,8 @@ function Form({ setTodos }: FormProps) {
       title: value,
       done: false,
     };
-    setTodos((prev: Todo[]) => [...prev, newTodo]);
 
+    setTodos((prev: Todo[]) => [...prev, newTodo]);
     setEnteredTodo("");
   };
 
